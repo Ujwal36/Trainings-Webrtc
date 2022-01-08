@@ -1,7 +1,7 @@
 var constraints = {video:true};
-
+var stream;
 function successCallback(stream) {
-
+this.stream = stream;
 var video = document.querySelector("video");
 video.srcObject = stream;
 }
