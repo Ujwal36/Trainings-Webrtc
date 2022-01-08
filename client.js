@@ -44,5 +44,5 @@ btnRemoveVideoTrack.addEventListener("click", function(){
 
 btnGetAllConnectedDevices.addEventListener("click", function(){
     console.log("Get all connected devices");
-        console.log(navigator.mediaDevices.enumerateDevices(););
+        console.log(navigator.mediaDevices.enumerateDevices());
   }); 
