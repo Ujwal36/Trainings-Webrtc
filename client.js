@@ -1,4 +1,4 @@
-var constraints = {video:true};
+var constraints = {video:true, audio:true};
 var stream;
 function successCallback(stream) {
 this.stream = stream;
