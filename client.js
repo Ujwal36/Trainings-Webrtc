@@ -41,3 +41,8 @@ btnRemoveVideoTrack.addEventListener("click", function(){
    console.log("removeVideoTrack()"); 
    stream.removeTrack(stream.getVideoTracks()[0]); 
 });
+
+btnGetAllConnectedDevices.addEventListener("click", function(){
+    console.log("Get all connected devices");
+        console.log(stream.getAllConnectedDevices());
+  }); 
